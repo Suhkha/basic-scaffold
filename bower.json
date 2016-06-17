@@ -1,0 +1,22 @@
+{
+  "name": "gulp_project",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "suhkha <suhkha92@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/Suhkha/basic-scaffold",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^2.2.4",
+    "bootstrap": "^3.3.6",
+    "modernizr": "^3.3.1"
+  }
+}
