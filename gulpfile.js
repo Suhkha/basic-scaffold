@@ -13,7 +13,7 @@ var gulp 			= require('gulp'),
 gulp.task('css', function(){
 	gulp.src('dev/stylus/main.styl')
 		//stylus compilation
-		.pipe(stylus({compress: false, paths: ['dev/stylus']}))
+		.pipe(stylus({error: true, compress: false, paths: ['dev/stylus'], use: [nib()]}))
 		//compile styles and add prefixing
 		.pipe(autoprefixer())
 		//clean prefixed CSS
